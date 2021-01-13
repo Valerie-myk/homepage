@@ -24,3 +24,74 @@
 .loaded .preloader {
     display: none;
 }
+main {
+    background-image: url('../assets/images/fon.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contacts li a.instagram:hover {
+    font-weight: bold;
+}
+
+.contacts li a.twitter:hover {
+    color: #00CED1;
+}
+
+.ryu-h2 {
+    font-size: 2rem;
+}
+
+a.text {
+    text-decoration: underline;
+    color: black;
+    font-weight: 1000;
+}
+
+a:hover {
+    color: red;
+}
+
+ul > li:before {
+    content: "";
+}
+
+.date {
+    margin-bottom: 1px;
+    font-style: italic;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 5pt;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: Ryu_primary;
+    src: url(../fonts/Ryu_primary.ttf);
+}
+
+@font-face {
+    font-family: Ryu_secondary;
+    src: url(../fonts/Ryu_secondary.ttf);
+}
+
+p, li {
+    font-family: Ryu_primary;
+}
+
+.myfont {
+    font-family: Ryu_secondary;
+    font-weight: bold;
+}
+
+p.myfont {
+    letter-spacing: 2px;
+}
+
+.avatar {
+    margin-top: 20px;
+    width: 20%;
+    height: 20%;
+}
